@@ -1,0 +1,163 @@
+python tools
+-----------
+IDLE ( basic)  
+vs code
+eclipse
+pycharm
+google colab ( web tool)
+
+anaconda ( general purpose but mainly used for analytics)
+---------
+spyder IDE
+jupyter notebook
+orange visualization tools
+
+
+
+coding,automation
+-------------------
+spyder
+vs code
+
+
+analytics/ML
+-----------
+jupyter notebook ( comes with anaconada)
+google colab
+
+
+C  - datatypes
+---
+int a = 10;
+float b = 34.43;
+char
+double
+long
+short
+
+
+** Everything in python is object **
+** Every object contains methods **
+
+python - objects
+----------------
+number
+string
+list
+tuple
+dictionary
+set
+
+
+number  ( 45, 45.43)
+------
+number can be integer, decimal , octal or hexadecimal.
+
+val = 10
+aval = 3.43
+
+
+string
+------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+list ( array in C)
+----------------
+list is collection of elements.
+Elements can be numbers,strings, lists, tuple or dictionary.
+
+alist = [10,20,30,40,435,32]
+blist = ["pyhon","java","unix"]
+clist = [10,"java","oracle",443.3]
+dlist = [[10,20],["unix","java"],[50,60]] # list of lists
+
+
+tuple ( read only , immutable , unchangeable , uneditable)
+------
+tuple is collection of elements.
+Elements can be numbers,strings, lists, tuple or dictionary.
+**** Elements inside tuple CANT be modified directly ****
+
+atup = (10,20,340,40)
+btup = ("java",45,5.4,"java")
+
+
+abc.csv    101,raj,s,hyderabad
+abc.log 
+abc.txt
+abc.json  - keys values
+
+dictionary ( json  hash  hashmap  associativearray)
+----------
+dictionary contains key and values.
+In dictionary keys are unique.
+              key would be number,string.
+** Indexing is NOT allowed in dictionary ***
+book - index
+-----
+chap1 10
+chap2 20
+chap3 30
+chap4 40
+chap5 40
+
+syntax:   object = { key:value , key:value , key:value }
+example:    book = {"chap1":10 , "chap2":20,"chap3":30 }
+            data = {1:2,3:4,5:6}
+          bookinfo={"chap1":["rita","US"],"chap2":["sita","UK"]}
+
+
+set ( venn diagrams)
+----
+set is UNORDERED collection of UNIQUE elemenets of SAME type.
+
+aset = {10,10,10,20,30,30}
+
+
+name =  'python'
+name[1]
+
+list  [10,20,30]
+alist[2]
+
+tuple ()
+dict  {key:value , key:value}
+set   {10,20,30}
+
+
+
+conditional statements
+---------------------
+simple if
+if-else 
+if-elif-elif-elif-elif..else
+
+
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+    level2
+else:
+    level2
+    level2
+    level2
+
+
+#day2
+-----
+covering tuple,dictionary,set methods in detail first
+working examples on above topics
+builtin functions
+userdefined functions
+file handling
+
