@@ -240,6 +240,17 @@ magenta #f0f
 ..
 ..
 
+
+
+# if you want to check the type of object ...
+print(type(colors))
+print(isinstance(colors,list)) #True
+print(isinstance(colors,dict)) #False
+
+
+for item in colors:
+    print(item['colors'] , item['values'])
+
 ############################################################
 data = {
     'Sales': {
