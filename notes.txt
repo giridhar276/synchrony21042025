@@ -352,6 +352,15 @@ Recruitment
 Employee Relations
 
 
+
+for key,value in data.items():
+    print(key)
+    print("--------")
+    for skey in value.keys():
+        print(skey)
+    print()
+
+
 ############################################################
 
 write a program to display the below output
