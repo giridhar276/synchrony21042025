@@ -228,7 +228,6 @@ colors = [
 ]
 
 
-############################################################
 write a program to display all the colors and its values.
 
 sample output :
