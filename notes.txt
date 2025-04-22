@@ -478,10 +478,136 @@ for key,value in info.items():
 
 
 ############################################################
+####### file handling ########
 
 
-############################################################
 
 
 
-############################################################
+functions
+----------
+- builtin functions
+- user defined functions
+
+
+
+builtin functions
+------------------
+print()
+len()
+range()
+type()
+isinstance()
+input()
+max()
+min()
+sum()
+
+typecasting functions - converting from one object to another object
+str()
+int()
+float()
+list()
+tuple()
+dict()
+set()
+
+
+
+If you want to display all the builtin functions
+
+print(dir(__builtins__))
+
+
+
+
+file handling
+---------------
+txt
+csv
+xlsx
+json
+jpeg
+bmp
+mp3
+mp4
+dat
+mkv
+pdf
+pptx
+docx
+zip
+rar
+7z
+tar
+tar.gz
+jar
+ser 
+.sas
+pmml
+
+
+working in flat files ( txt csv json conf log xml )
+- dont require any libraries to work with flat files
+
+working with third party files ( pdf  xlsx docx pptx zip 7z )
+- we need a library to work with third party files
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<regex.h>
+#include<graphics.h>
+
+count of libraries in python ?
+-------------------------
+6L+
+
+
+working with flat files
+-----------------------
+read mode ( r)
+write mode ( w )
+append mode ( a)
+
+opening file
+-------------
+syntax:   object = open(filename,mode)
+example:    fobj = open("customers.txt","r")  # read mode
+            **** the file should exist ****
+
+            fobj = open("customers.txt","w")  # write mode
+            ** If the file is not existing ... file gets created first
+            ** if the file is already existing... it overwrites the existing
+
+            fobj = open("customers.txt","a")  # append mode
+            ** If the file is not existing ... file gets created first
+            ** if the file is already existing... it appends the data
+            
+
+
+closing the file
+-----------------
+fobj.close()
+
+
+read operation
+--------------
+
+- reading the file line by line
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+
+task =  core programming +   sound understanding of libraries + core domain
+       ( procedural or
+        object oriented)
+
+
+
+
