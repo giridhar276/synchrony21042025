@@ -1,0 +1,422 @@
+python tools
+-----------
+IDLE ( basic)  
+vs code
+eclipse
+pycharm
+google colab ( web tool)
+
+anaconda ( general purpose but mainly used for analytics)
+---------
+spyder IDE
+jupyter notebook
+orange visualization tools
+
+
+
+coding,automation
+-------------------
+spyder
+vs code
+pycharm
+
+analytics/ML
+-----------
+jupyter notebook ( comes with anaconada)
+google colab
+
+
+C  - datatypes
+---
+int a = 10;
+float b = 34.43;
+char
+double
+long
+short
+
+
+** Everything in python is object **
+** Every object contains methods **
+
+python - objects
+----------------
+number
+string
+list
+tuple
+dictionary
+set
+
+
+number  ( 45, 45.43)
+------
+number can be integer, decimal , octal or hexadecimal.
+
+val = 10
+aval = 3.43
+
+
+
+
+string
+------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+list ( array in C)
+----------------
+list is collection of elements.
+Elements can be numbers,strings, lists, tuple or dictionary.
+
+alist = [10,20,30,40,435,32]
+blist = ["pyhon","java","unix"]
+clist = [10,"java","oracle",443.3]
+dlist = [[10,20],["unix","java"],[50,60]] # list of lists
+
+
+tuple ( read only , immutable , unchangeable , uneditable)
+------
+tuple is collection of elements.
+Elements can be numbers,strings, lists, tuple or dictionary.
+**** Elements inside tuple CANT be modified directly ****
+
+atup = (10,20,340,40)
+btup = ("java",45,5.4,"java")
+
+
+abc.csv    101,raj,s,hyderabad
+
+empid,name,lastname,city
+-----------------------
+101,raj,s,hyderabad
+
+
+abc.log 
+abc.txt
+abc.json  - keys values
+-------
+[
+{
+    "empid":101,
+    "name":"raj",
+    "last":"s",
+    "city":"hyderabad"
+},
+{
+
+}
+]
+
+
+
+
+dictionary ( json  hash  hashmap  associativearray)
+----------
+dictionary contains key and values.
+In dictionary keys are unique.
+              key would be number,string.
+** Indexing is NOT allowed in dictionary ***
+book - index
+-----
+chap1 10
+chap2 20
+chap3 30
+chap4 40
+chap5 40
+
+syntax:   object = { key:value , key:value , key:value }
+example:    book = {"chap1":10 , "chap2":20,"chap3":30 ,"chap1":100}
+            data = {1:2,3:4,5:6}
+          bookinfo={"chap1":["rita","US"],"chap2":["sita","UK"]}
+
+
+set ( venn diagrams)
+----
+set is UNORDERED collection of UNIQUE elemenets of SAME type.
+
+aset = {10,10,10,20,30,30}
+
+
+name =  'python'
+name[1]
+
+list  [10,20,30]
+alist[2]
+
+tuple ()
+dict  {key:value , key:value}
+set   {10,20,30}
+
+
+
+conditional statements
+---------------------
+simple if
+if-else 
+if-elif-elif-elif-elif..else
+
+
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+    level2
+else:
+    level2
+    level2
+    level2
+
+
+#day2
+-----
+covering tuple,dictionary,set methods in detail first
+working examples on above topics
+builtin functions
+userdefined functions
+file handling
+
+
+
+functions
+----------
+- builtin functions
+- user defined functions
+
+
+
+builtin functions
+------------------
+print()
+len()
+range()
+type()
+isinstance()
+input()
+max()
+min()
+sum()
+
+typecasting functions - converting from one object to another object
+str()
+int()
+float()
+list()
+tuple()
+dict()
+set()
+
+
+
+If you want to display all the builtin functions
+
+print(dir(__builtins__))
+
+
+
+
+file handling
+---------------
+txt
+csv
+xlsx
+json
+jpeg
+bmp
+mp3
+mp4
+dat
+mkv
+pdf
+pptx
+docx
+zip
+rar
+7z
+tar
+tar.gz
+jar
+ser 
+.sas
+pmml
+
+
+working in flat files ( txt csv json conf log xml )
+- dont require any libraries to work with flat files
+
+working with third party files ( pdf  xlsx docx pptx zip 7z )
+- we need a library to work with third party files
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<regex.h>
+#include<graphics.h>
+
+count of libraries in python ?
+-------------------------
+6L+ in www.pypi.org
+
+
+working with flat files
+-----------------------
+read mode ( r)
+write mode ( w )
+append mode ( a)
+
+opening file
+-------------
+syntax:   object = open(filename,mode)
+example:    fobj = open("customers.txt","r")  # read mode
+            **** the file should exist ****
+
+            fobj = open("customers.txt","w")  # write mode
+            ** If the file is not existing ... file gets created first
+            ** if the file is already existing... it overwrites the existing
+
+            fobj = open("customers.txt","a")  # append mode
+            ** If the file is not existing ... file gets created first
+            ** if the file is already existing... it appends the data
+            
+
+
+closing the file
+-----------------
+fobj.close()
+
+
+read operation
+--------------
+
+- reading the file line by line
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+
+task =  core programming +   sound understanding of libraries + core domain
+       ( procedural or
+        object oriented)
+
+
+Exception handling
+-------------------
+
+1. syntax error
+
+2. semantic error or runtime error or logical error
+
+Handling errors that occurs during runtime(execution time) is known as exception handling.
+
+try     ( mandatory)
+except  ( mandatory)
+else
+finally
+
+
+
+
+task =  core programming +   sound understanding of libraries + core domain
+       ( procedural or
+        object oriented)
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+Linux/windows          python
+----- ------------------------
+dir/ls                   os.listdir()
+
+delete a file:           os.remove()  or    os.unlink()
+rm 
+
+
+current working dir      os.getcwd()
+pwd
+
+
+cpu/memory utlization     psutil.
+task manager
+
+cp -  cp sourfile desn    shutil.copy(s,d)
+mv    mv source dest      shutil.move(s,d)
+
+
+
+date                      Display date timestamp in python ?
+                          import datetime
+                          print(datetime.datetime.now())
+
+
+library for mongodb ?      pymongodb
+                           cx_Oracle
+                           pymysql
+                           pymssql
+                           db2
+
+
+
+# complete all these tasks
+# lambda function - functional programming
+# user defined functions -- making our code resusable
+# pandas
+
