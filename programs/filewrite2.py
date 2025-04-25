@@ -21,3 +21,12 @@ with open("languages1.txt","w") as fobj:
     fobj.write("python\n")
     fobj.write("unix\n")
     fobj.writelines(["unix\n","java\n"])
+
+
+
+
+
+
+
+
+

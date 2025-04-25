@@ -420,3 +420,124 @@ library for mongodb ?      pymongodb
 # user defined functions -- making our code resusable
 # pandas
 
+function | definition | block | subroutine
+
+user defined functions
+------------------------
+
+- reusability purpose
+- we define the block and call the block for multiple times
+
+
+different ways of passing arguments
+----------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+python 3.10  ---> current version  ---> client1
+------------
+pandas 2.2.3
+matplotlib 3.10.1
+
+python 3.11 ---> project2
+--------------------
+pandas 2.2.1
+matplotlib 3.9.5
+
+
+python 3.13 project3
+-------
+pandas 2.3.1
+matplotlib 3.10.4
+
+
+In realtime ... we are NOT supposed to install any libraries in global python
+****** we are supposed to install libraries in our virutal environments only ******
+
+virtual environments 
+---------------------
+virtual environments in python are just like virtual OS/machines
+
+Advantage of using virtual environments in python 
+---------------------
+swtiching between multiple versions of python will be simple
+
+
+step1: creating your virtual environment
+--------------------------------
+In the python console, execute the below
+
+python -m venv myenv   ----> virtual environment will be created with myenv in current folder.
+
+
+step2: activating your virtual environment
+---------------------------------
+source ./myenv/bin/activate    ( Mac)
+.\Scripts\bin/activate        ( Windows)
+
+
+
+pandas
+------
+data analytics/ EDA ( explanatory data analysis)
+data processing/cleansing/preprocessing/wrangling
+
+
+
+      R programming in analytics
+      SAS programming
+
+
+2000                                        2010                                        2025
+     ------------------------------------- pandasV1.0-----------------------------------
+       python,                     
+       - web development
+       - testing 
+       - automation
+
+
+                                                        agentic ai ( automated ml)
+                                                          |
+                                                        genai  ( chatgpt, gemini , llms)
+                                                          |
+                                                        tensorflow ( deep learning)
+                                                          |
+                                                        scikitlearn ( ML library)
+                                                          |
+                                                        matplotlib (visualizations)
+                                                          |
+                                                        pandas  ( High level library used for data processing)
+                                                          |
+                                                        scipy  ( scientific computing)
+                                                          |
+                                                        numpy  ( low level library  Eg matrix operations )
+
+
+python
+-----------
+csv files   ---->    import csv
+excel files ---->    import openpyxl, xlrd, xlsxwriter
+mongodb     ---->    import pymongo
+jsonfiles   ---->    import json
+docx files   --->    import docx
+
+
+pandas ----> one stop solution for all the files
+
+
+python objects
+------------
+number
+string
+list
+tuple
+dict
+set
+
+pandas - datastructures
+-------
+series  ( 1 -D )
+dataframe  ( 2-D)

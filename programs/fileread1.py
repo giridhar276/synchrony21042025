@@ -1,6 +1,6 @@
 # method1 : reading the file line by line
 # fobj acts like cursor or handler
-with open("companies.csv","r") as fobj:
+with open("companies1111.csv","r") as fobj:
     for line in fobj:
         print(line.strip())
 
